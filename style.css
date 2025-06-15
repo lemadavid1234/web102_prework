@@ -11,6 +11,7 @@ body {
 
 .header {
     display: flex;
+    justify-content: space-between;
     background-color: lightblue;
     padding: 1%;
     align-items: center;
@@ -19,8 +20,19 @@ body {
     margin-top: -10px;
 }
 
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;    
+}
+
+
 .stats-container {
     display: flex;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 0px 30px lightblue;
+
 }
 
 .stats-card {

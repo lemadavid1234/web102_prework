@@ -1,0 +1,87 @@
+challenge #1
+    1. Which command starts a fresh new repository?
+        ans: git init   
+        keyword: OOZE
+
+    2. What happens when executing the command 'git add index.js'
+        ans: file index.js is moved from working directory to the staging area
+        keyword: dive
+
+    3. What is the process for adding files to the local repository called? 
+        ans: commiting
+        keyword: TRAP
+    
+    4. What happens when executing the command 'git branch bug-fixes' then 'git checkout bug-fixes'
+        ans: a new branch 'bug-fixes' will be created and then moved to
+        keyword: pine
+
+
+
+challenge #2
+
+    1. How many properties does each game have?
+        ans: 6
+
+    2. What is the id of the HTML element that will display a list of all games?
+        ans: games-container
+
+    3. Which selector would select all elements with with the 'stats-card' class?
+        ans: .stats-card 
+
+    4. Which line number in index.js contains the start of a loop?
+        ans: 15
+
+
+
+challenge #3: 
+
+    1. How many times will this loop run when it is called with the arguement GAMES_JSON?
+        ans: 11
+    2. What would the output of the following code segment be?
+        ans: The answer to ${x} + ${y} is ${x + y}
+        keyword: seafoam
+    3. Which variable was passed to addGamesToPage in order to add all the games to the page?
+        ans: GAMES_JSON
+
+
+challenge #4:
+
+    1. What value is now displayed under the Individual Contributions heading?
+        ans: 19187
+    2. What value is now displayed under the Total Raised Heading?
+        ans: 800268
+    3. Identify the error in the code segment
+        ans: The arrow function does not add sum and animal.charAt(0), so it will return only "c" 
+        keyword: BRAIN
+
+    19187800268BRAIN
+
+challenge #5:
+
+    1. How many games are in the array returned by filterUnfundedOnly?
+        ans: 7
+    2. How many games are in the array returned by filterFundedOnly?   
+        ans: 4
+    3. What would happen if the 'deleteChildElements' function was never called within the three event handlers you wrote?
+        ans: The buttons would always add their list of games to the games already displayed, creating a growing list of games.
+        keyword: FLANNEL
+    4. Which type of event does each button listen for?
+        ans: click
+
+challenge #6:
+
+1: Which function adds correct commas and punctuation to a number, e.g. displaying 100000 as 100,000?
+    ans: toLocaleString
+2: What is the opening tag of the HTML element you appended your newly created <p> element to?
+    ans: <div>
+3: Which option would correctly display "Hello {name}" if a user is logged in, and simply "Hello!" if the user is not logged in?
+    ans: 1
+4: What does the following code segment return when called with true?
+    ans: $2.0
+    keyword: IVY
+
+    toLocaleString<div>1IVY
+
+challenge #7:
+
+1. 

@@ -9,8 +9,44 @@
   <body>
     <!-- header row with logo -->
     <div class="header">
-        <img id="tentacles" src="assets/tentacles.png">
-        <h1 class="header-text">Sea Monster Crowdfunding</h1>
+        <div class="header-left">
+            <img id="tentacles" src="assets/tentacles.png">
+            <h1 class="header-text">Sea Monster Crowdfunding</h1>
+        </div>
+        <!--  Adding a button that allows user to become a donor. -->
+        <button id="donor-btn"> Become a Donor!</button>
+    </div>
+
+    <!-- Donor Popup Form-->
+    <div id="donor-form" class="form hidden">
+        <div class="form-content">
+            <span id="close-form" class="close">&times</span>
+            <h2>Donate to a Game!</h2>
+            <form id = "donor-form">
+                <label>
+                    Name:
+                    <input type="text" name="name" required />
+                </label><br />
+
+                <label>
+                    Email:
+                    <input type="email" email="email" required />
+                </label><br />
+
+                <label>
+                    Phone #:
+                    <input type="tel" name="phone" required />
+                </label><br />
+
+                <label>
+                    Choose Game:
+                    <input type="text" id="game-search" placeholder="Search Games..." />
+                    <select id="game-select" name="game" required></select>
+                </label><br /><br />
+                
+                <button type="submit">Submit Form</button>
+            </form>
+        </div>
     </div>
 
     <!-- background info about company -->
