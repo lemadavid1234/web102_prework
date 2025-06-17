@@ -84,4 +84,15 @@ challenge #6:
 
 challenge #7:
 
-1. 
+    1. What is the first word of the most funded game?
+        ans: Zoo    
+    2. What is the first word of the second most funded game?
+        ans: How
+    3. What is the value of ...rest in the following code segment?
+        ans: [3,4,5,6]
+        keyword: CEDAR
+
+
+
+
+

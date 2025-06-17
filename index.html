@@ -18,11 +18,11 @@
     </div>
 
     <!-- Donor Popup Form-->
-    <div id="donor-form" class="form hidden">
+    <div id="donor-form" class="hidden">
         <div class="form-content">
             <span id="close-form" class="close">&times</span>
             <h2>Donate to a Game!</h2>
-            <form id = "donor-form">
+            <form id="donation-form">
                 <label>
                     Name:
                     <input type="text" name="name" required />
@@ -40,9 +40,15 @@
 
                 <label>
                     Choose Game:
-                    <input type="text" id="game-search" placeholder="Search Games..." />
                     <select id="game-select" name="game" required></select>
+                </label><br />
+
+                <label>
+                    Donation Amount:
+                    <input text="donation" name="donation-amount" required>
                 </label><br /><br />
+                
+
                 
                 <button type="submit">Submit Form</button>
             </form>

@@ -205,3 +205,29 @@ firstGameContainer.appendChild(topGameElement);
 const secondTopGameElement = document.createElement('p');
 secondTopGameElement.textContent = secondGame.name;
 secondGameContainer.appendChild(secondTopGameElement);
+
+
+/************************************************************************************
+* Customizations: adding 'Become a Donor' button to website: allows user to fill in a form to Donate to a Game of their choosing.
+*/
+
+const donorBtn = document.getElementById("donor-btn");
+const donorForm = document.getElementById("donor-form");
+const closeForm = document.getElementById("close-form");
+
+donorBtn.addEventListener("click", () => {
+    donorForm.classList.remove("hidden");
+});
+
+closeForm.addEventListener("click", () => {
+    donorForm.classList.add("hidden");
+});
+
+const gameSelect = document.getElementById("game-select");
+
+for (const game of GAMES_JSON) {
+    const option = document.createElement("option");
+    option.value = game.name;
+    option.textContent = game.name;
+    gameSelect.appendChild(option);
+}

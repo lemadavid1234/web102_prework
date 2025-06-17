@@ -17,8 +17,8 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
-
+* [X] List anything else that you can get done to improve the app functionality!
+    - Implmented a 'Become a Donor' button that allows the user to fill out a form with the designated game, their info, and amount they want to contribute.
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:

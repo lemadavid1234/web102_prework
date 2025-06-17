@@ -78,10 +78,53 @@ body {
     text-align: center;
 }
 
-button {
+.button {
     font-family: 'Cabin';
     border: none;
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
 }
+
+#donor-btn {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #2b6cb0;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#donor-btn:hover {
+    background-color: #2c5282;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.form-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #888;
+}
+
+.close:hover {
+    color: black;
+}
+
