@@ -21,9 +21,8 @@ The following **optional** features are implemented:
     - Implmented a 'Become a Donor' button that allows the user to fill out a form with the designated game, their info, and amount they want to contribute.
 ## Video Walkthrough
 
-Here's a walkthrough of implemented features:
-
-<img src='https://drive.google.com/file/d/1EDtRzsc3012Y_BWTnPqN72M0LAv5Oqfy/view?usp=sharing' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+Here's a link to the walkthrough of implemented features:
+https://drive.google.com/file/d/1EDtRzsc3012Y_BWTnPqN72M0LAv5Oqfy/view?usp=sharing
 
 
 
