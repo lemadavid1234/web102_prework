@@ -23,10 +23,12 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='/private/var/folders/_s/sdy3jg9s74v5nr_lfpq8m9_80000gn/T/6160878e634d3666e20c456256d595b7/Kapture 2025-06-16 at 23.54.08.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://drive.google.com/file/d/1EDtRzsc3012Y_BWTnPqN72M0LAv5Oqfy/view?usp=sharing' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with Kap 
+GIF created with QuickTime Player (macOS)
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
